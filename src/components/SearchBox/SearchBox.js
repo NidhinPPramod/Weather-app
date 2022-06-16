@@ -22,9 +22,8 @@ const SearchBox = () => {
     }
 
 
-
     return (
-        <div className="search-div bg-light text-white rounded p-3 d-flex flex-row justify-content-between">
+        <div className="search-div bg-light text-white rounded p-3 d-flex flex-row justify-content-between ">
             <div>
                 <TextField onChange={(event) => setCity(event.target.value)} fullWidth id="outlined-basic"
                            label="Enter City" variant="outlined"/>

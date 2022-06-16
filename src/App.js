@@ -2,6 +2,7 @@ import Home from "./Home/Home"
 import {useState} from "react";
 import {CityContext} from "./Context/Context"
 import Coordinate from "./Context/CoordinateContext";
+import "./App.css"
 
 
 function App() {
