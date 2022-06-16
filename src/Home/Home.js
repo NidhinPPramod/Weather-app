@@ -4,6 +4,8 @@ import Box from "../components/Box/Box";
 import "./Home.css"
 
 const Home = () => {
+
+
   return (
       <div className="main">
           <SearchBox/>
